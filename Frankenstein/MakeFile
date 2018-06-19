@@ -1,8 +1,0 @@
-CC=gcc
-LIBS='pkg-config gstreamer-1.0 --libs'
-CFLAGS='pkg-config gstreamer-1.0 --cflags'
-COMPILEFLAGS=-pthread
-
-all: main
-	mainThreads.c/%.o 
-$(CC) $(LIBS) $(CFLAGS) cpipetest.c mainThreads.c
