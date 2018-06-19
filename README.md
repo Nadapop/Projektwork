@@ -4,7 +4,7 @@ To run the GStreamer software, the [GStreamer](https://gstreamer.freedesktop.org
 
 To compile the transmitter use:
 
-``` `gcc -pthread -o transmitter threadMainTest.c cpipetest.c `pkg-config --cflags --libs gstreamer-1.0` ``
+`` `gcc -pthread -o transmitter threadMainTest.c cpipetest.c `pkg-config --cflags --libs gstreamer-1.0` ``
 
 The resulting file can be run as `./transmitter <width> <height> <VCL> <address> <port>`
 
